@@ -1,0 +1,46 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+videos/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Временные аудиофайлы
+*.temp_audio.mp3
+
+# Результаты расшифровки (по желанию — раскомментируйте)
+# *.txt
+# *.srt
+# *.vtt
+
+# Модели и кэш Hugging Face / Whisper
+.cache/
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
